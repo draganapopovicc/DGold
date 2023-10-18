@@ -1,0 +1,30 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit
+}
+
+.dark .header {
+  background: black;
+  color: white !important
+}
+
+.dark nav {
+  background: black;
+  color: white !important
+}
+
+.light .header {
+  background: #e3e3e3;
+}
+
+
+
